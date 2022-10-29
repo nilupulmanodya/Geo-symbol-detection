@@ -1,0 +1,3 @@
+https://www.nature.com/articles/s41598-022-07654-x
+yolo5 :- https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
+image converter to yolov5 :- https://blog.paperspace.com/train-yolov5-custom-data/
