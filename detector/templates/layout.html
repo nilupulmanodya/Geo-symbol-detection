@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>{{title}}</title>
+  <!-- boostrap -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" />
+
+  <!-- css for pages -->
+  
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/homePage.css') }}" />
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/resultsPage.css') }}" />
+  
+
+
+</head>
+
+<body>
+ 
+
+   
+	{% block body %} {% endblock %}
+  
+  <!-- info section -->
+
+  <!-- footer section -->
+  <footer>
+    <p>
+      &copy; <span id="displayDate"></span> All Rights Reserved
+    </p>
+  </footer>
+  <!-- end  footer section -->
+
+  <script src="{{ url_for('static', filename='js/homePage.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/resultsPage.js') }}"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h2>Paper chart symbol detector</h2>
+  <p class="lead">Results of your <b>Map</b></p>
+<br>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Map</h2>
+    <img src="map_1_slice_34.jpg">
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Results</h2>
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Attributes</th>
+          <th scope="col">Count</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Bouy</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>major / minor light</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>wreck</td>
+          <td>3</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+{% endblock %}
