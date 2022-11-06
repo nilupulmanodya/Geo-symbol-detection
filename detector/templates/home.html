@@ -5,8 +5,8 @@
         <p class="lead">Upload your <b>Map</b></p>
         
         <!-- Upload  -->
-        <form id="file-upload-form" class="uploader">
-          <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
+        <form id="file-upload-form" class="uploader" method="post" enctype=multipart/form-data>
+          <input id="file-upload" type="file" name="file" accept="image/*" />
         
           <label for="file-upload" id="file-drag">
             <img id="file-image" src="#" alt="Preview" class="hidden">
