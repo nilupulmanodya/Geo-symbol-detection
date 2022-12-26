@@ -1,0 +1,288 @@
+{
+    "attributes":{
+        "can buoy":{
+            "attribute_id":1,
+            "name":"can buoy",
+            "color":{
+                "Unknown":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"Capture3"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"Capture3"
+                        }
+                    }
+                },
+                "white":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"Capture3"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"Capture3"
+                        }
+                    }
+                },
+                "black":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"Capture3"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"Capture3"
+                        }
+                    }
+                },
+                "red":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"Capture1.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"Capture1.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"Capture1.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"Capture1.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"Capture1.JPG"
+                        }
+                    }
+                },
+                "green":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"Capture2.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"Capture2.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"Capture2.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"Capture2.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"Capture2.JPG"
+                        }
+                        
+                    }
+                },
+                "blue":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"Capture3"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"Capture3"
+                        }
+                    }
+                },
+                "yellow":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"Capture3"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"Capture3"
+                        }
+                    }
+                },
+                "grey":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"Capture3"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"Capture3"
+                        }
+                    }
+                },
+                "brown":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"Capture3"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"Capture3"
+                        }
+                    }
+                },
+                "amber":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"Capture3"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"Capture3"
+                        }
+                    }
+                },
+                "violet":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"Capture3"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"Capture3"
+                        }
+                    }
+                },
+                "orange":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"Capture3"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"Capture3"
+                        }
+                    }
+                },
+
+                "magenta":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"Capture3"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"Capture3"
+                        }
+                    }
+                },
+
+                "pink":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"Capture3"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"Capture3"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"Capture3"
+                        }
+                    }
+                }
+            }
+ 
+        },
+        "Obstraction":{
+            "attribute_id":2,
+            "name":"Obstraction",
+            "lateral_mark":{
+                "image_uri":"2.jpg"
+
+            }
+        }  
+    }
+}
