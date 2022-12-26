@@ -25,9 +25,9 @@ def predict_image(im_name):
     os.remove(os.path.join(app.config['UPLOAD_FOLDER'], im_name)) # deleting uploaded file if prediction success
     results.save(save_dir=RESULT_FOLDER)
     printRes = results.pandas().xyxy[0]
-    print(printRes)
 
-    return im_name, printRes
+    LenRes = len(printRes)
+    return im_name, printRes, LenRes
     
 
 # def getTableData()
@@ -68,9 +68,9 @@ def disease_prediction():
         file1.save(path)
             
         try:
-            result_img, printRes = predict_image(file1.filename)
+            result_img, printRes, LenRes = predict_image(file1.filename)
             # print(result_img)
-            return render_template('results.html', result_img=result_img, printRes= printRes, title=title)
+            return render_template('results.html', result_img=result_img, printRes= printRes, title=title, LenRes=LenRes)
         except Exception as e :
             print('tried not success', e)
             pass

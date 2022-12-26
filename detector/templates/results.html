@@ -8,29 +8,53 @@
 <div class="row">
   <div class="column" style="background-color:#aaa;">
     <h2>Map</h2>
-    <img src="{{ url_for('static', filename='/images/results/0/{}'.format(result_img)) }}">
+    <!-- <img src="{{ url_for('static', filename='/images/results/0/{}'.format(result_img)) }}"> -->
+    <img src="{{ url_for('static', filename='/images/results/0/{}'.format(result_img)) }}" usemap="#UploadedImage" alt="Sample Image">
+    <script>
+    function Popup(text) {
+      console.log(text)
+    }
+  </script>
   </div>
-  <div class="column" style="background-color:#bbb;">
+  <div class="column" style="background-color:#bbb; overflow: scroll">
     <h2>Results</h2>
 
     <table class="table table-striped">
-      {{printRes}}
       <tbody>
+
+      {% if LenRes>0 %}
+
+      <tr>
+        <th scope="row">No</th>
+        <th>Name</th>
+        <th>confidence</th>
+        <th>xmin</th>
+        <th>ymin</th>
+        <th>xmax</th>
+        <th>ymax</th>  
+      </tr>
+
+      {%for i in range(0, LenRes)%}
         <tr>
-          <th scope="row">1</th>
-          <td>Bouy</td>
-          <td>10</td>
+          <th scope="row">{{i+1}}</th>
+          <td>{{printRes['name'][i]}}</td>
+          <td>{{printRes['confidence'][i]}}</td>
+          <td>{{printRes['xmin'][i]}}</td>
+          <td>{{printRes['ymin'][i]}}</td>
+          <td>{{printRes['xmax'][i]}}</td>
+          <td>{{printRes['ymax'][i]}}</td>
         </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>major / minor light</td>
-          <td>12</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>wreck</td>
-          <td>3</td>
-        </tr>
+        {%endfor%}
+        <map name="UploadedImage">
+        {%for i in range(0, LenRes)%}
+          <area shape="rect" coords="{{printRes['xmin'][i]}}, {{printRes['ymin'][i]}}, {{printRes['xmax'][i]}}, {{printRes['ymax'][i]}}" onclick="Popup(`{{printRes['name'][i]}}`)" href="#" alt="something">    
+        {%endfor%}
+      </map>
+      {% else %}
+      <br>
+          <div>No Results Found to uploaded image.. may be you can try with different image...</div>
+      {% endif %}      
+        
       </tbody>
     </table>
 
