@@ -1,0 +1,59 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div style="text-align: center;">
+    <h1>
+        {NAME OF THE ATTRIBUTE}
+    </h1>
+    
+    <div class="row">
+        <div class="column">
+            <h2> Choose your Options</h2>
+
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            <label>Color</label>
+                        </td>
+                        <td>
+                            <select
+                                onchange="print_lateral_mark('lateral_mark', this.selectedIndex);"
+                                id="color"
+                                name="color"   
+                                required
+                                >
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Lateral Mark : </label>
+                        </td>
+                        <td>
+                            <select
+                            onchange="print_image('image1',this.selectedIndex )"
+                            id="lateral_mark"
+                            name="lateral_mark"   
+                            required
+                            >
+    
+                    </select>
+                        </td>
+                    </tr>
+                 </table>
+            </form>
+
+        </div>
+        <div class="column">
+
+            <img style="border: 5px solid #555;" id="image1" src="Capture.JPG" alt="image" width="300", height="300">
+        </div>
+</div>
+
+<script language="javascript">
+    print_color("color","can buoy");
+    // print_color("color","Testsssssssssss")
+  </script>
+
+{% endblock %}

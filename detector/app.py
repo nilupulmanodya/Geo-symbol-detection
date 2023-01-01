@@ -79,7 +79,11 @@ app.config['RESULT_FOLDER'] = RESULT_FOLDER
 
 
 
-#render lateral_marks_by_symbol_name_and_color(
+#choose attributes page
+@ app.route('/attributes')
+def paperViewAttributes():
+    title = 'Paper Chart Detector - Choose Attributes'
+    return render_template('resultsAttributes.html', title=title)
 
 
 
