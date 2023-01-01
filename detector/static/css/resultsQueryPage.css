@@ -1,0 +1,26 @@
+.row {
+    display: flex;
+    margin: 5%;
+    padding: 20px;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  .table1 {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+
+  .tr1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: "center";
+  }
+
+.tr1:nth-child(even){background-color: #f2f2f2;}
+
+.tr1:hover {background-color: #ddd;}

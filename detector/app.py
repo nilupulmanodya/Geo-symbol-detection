@@ -15,46 +15,46 @@ RESULT_FOLDER = './static/images/results/0'
 
 
 
-f = open('./data.json')
-data = json.load(f)
-f.close()
+# f = open('./data.json')
+# data = json.load(f)
+# f.close()
 
 
-def get_colors_by_symbol(symbol_name):
-    list_color=[]
-    if data['attributes'][symbol_name].get('color')!=None:
-        for color in data['attributes'][symbol_name]['color']:
-            list_color.append(color)
-    else:
-        print('no color found')
-    print('list_color',list_color)
-    return list_color
+# def get_colors_by_symbol(symbol_name):
+#     list_color=[]
+#     if data['attributes'][symbol_name].get('color')!=None:
+#         for color in data['attributes'][symbol_name]['color']:
+#             list_color.append(color)
+#     else:
+#         print('no color found')
+#     print('list_color',list_color)
+#     return list_color
 
-get_colors_by_symbol('can buoy')
-
-
-def get_lateral_marks_by_symbol_name_and_color(symbol_name, color):
-    list_lateral_marks=[]
-    for lateral_mark in data['attributes'][symbol_name]['color'].get(color)['lateral_mark']:
-        list_lateral_marks.append(lateral_mark)
-    print('list_lateral_marks',list_lateral_marks)
-    return list_lateral_marks
+# get_colors_by_symbol('can buoy')
 
 
-get_lateral_marks_by_symbol_name_and_color('can buoy','red')
+# def get_lateral_marks_by_symbol_name_and_color(symbol_name, color):
+#     list_lateral_marks=[]
+#     for lateral_mark in data['attributes'][symbol_name]['color'].get(color)['lateral_mark']:
+#         list_lateral_marks.append(lateral_mark)
+#     print('list_lateral_marks',list_lateral_marks)
+#     return list_lateral_marks
 
-def get_image_uri(symbol_name, color=None,leteral_mark=None):
-    if color != None:
-        image_uri = data['attributes'][symbol_name]['color'].get(color)['lateral_mark'][leteral_mark]['image_uri']
-        print('color is available image_uri: ',image_uri)
-        return image_uri
+
+# get_lateral_marks_by_symbol_name_and_color('can buoy','red')
+
+# def get_image_uri(symbol_name, color=None,leteral_mark=None):
+#     if color != None:
+#         image_uri = data['attributes'][symbol_name]['color'].get(color)['lateral_mark'][leteral_mark]['image_uri']
+#         print('color is available image_uri: ',image_uri)
+#         return image_uri
         
-    else:
-        image_uri = data['attributes'][symbol_name]['lateral_mark']['image_uri']
-        print('color is not available.. image_uri',image_uri)
-        return image_uri
+#     else:
+#         image_uri = data['attributes'][symbol_name]['lateral_mark']['image_uri']
+#         print('color is not available.. image_uri',image_uri)
+#         return image_uri
 
-get_image_uri('Obstraction')
+#get_image_uri('Obstraction')
 
 def predict_image(im_name):
     print('im_name',im_name)

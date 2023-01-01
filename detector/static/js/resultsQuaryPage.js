@@ -284,7 +284,7 @@ const data ={
 
             }
         },
-        "major/minorLight":{
+        "Major/Minor light":{
             "attribute_id":2,
             "name":"Obstraction",
             "lateral_mark":{
@@ -331,6 +331,8 @@ function print_color(color_id, attribute_name){
 	// return list of colors and set value to option for given attribute name
     // given the id of the <select> tag as function argument, it inserts <option> tags
     attribute = attribute_name
+
+    console.log('printing color, attribute_name',attribute_name)
 
 
     if (attribute == 'Testsssssssssss'){

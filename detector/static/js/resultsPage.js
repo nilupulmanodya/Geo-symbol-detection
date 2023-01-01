@@ -137,6 +137,7 @@ function ekUpload(){
       Init();
     } else {
       document.getElementById('file-drag').style.display = 'none';
+      
     }
   }
   ekUpload();

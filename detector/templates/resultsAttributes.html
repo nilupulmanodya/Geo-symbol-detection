@@ -2,17 +2,19 @@
 
 {% block body %}
 <div style="text-align: center;">
-    <h1>
+    <h1 id="header">
         {NAME OF THE ATTRIBUTE}
     </h1>
+    <br>
+    <br>
     
     <div class="row">
         <div class="column">
             <h2> Choose your Options</h2>
 
             <form>
-                <table>
-                    <tr>
+                <table class="table1">
+                    <tr class="tr1">
                         <td>
                             <label>Color</label>
                         </td>
@@ -26,7 +28,7 @@
                             </select>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="tr1">
                         <td>
                             <label>Lateral Mark : </label>
                         </td>
@@ -52,8 +54,19 @@
 </div>
 
 <script language="javascript">
-    print_color("color","can buoy");
-    // print_color("color","Testsssssssssss")
+
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    attribute = urlParams.get('attribute')
+
+      console.log('attribute',attribute)
+
+      document.getElementById("header").innerHTML = attribute;
+
+
+    print_color("color", attribute);
+
+    // print_color("color","can buoy")
   </script>
 
 {% endblock %}
