@@ -1449,6 +1449,62 @@ const data ={
         },
 
 
+        
+        
+        // No image found for the 11
+
+        "stony shore":{
+            "attribute_id":11,
+            "name":"stony shore",
+            "lateral_mark":{
+                "image_uri":"./static/images/landMarks/11/no_image_found.jpg"
+
+            }
+        },
+
+
+
+
+
+
+        "rocky area":{
+            "attribute_id":12,
+            "name":"rocky area",
+            "color":{
+                "Unknown":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/12/Capture.JPG"
+                        },
+                        "partely submerged at high water":{
+                            "image_uri":"./static/images/landMarks/12/Capture.JPG"
+                        },
+                        "always dry":{
+                            "image_uri":"./static/images/landMarks/12/Capture.JPG"
+                        },
+                        "always under water/submerged":{
+                            "image_uri":"./static/images/landMarks/12/Capture.JPG"
+                        },
+                        "covers and uncovers":{
+                            "image_uri":"./static/images/landMarks/12/Capture1.JPG"
+                        },
+                        
+                        "awash":{
+                            "image_uri":"./static/images/landMarks/12/Capture.JPG"
+                        },
+                        
+                        "subject to inundation or flooding":{
+                            "image_uri":"./static/images/landMarks/12/Capture.JPG"
+                        },
+                        "floating":{
+                            "image_uri":"./static/images/landMarks/12/Capture.JPG"
+                        },
+                    }
+                },
+                
+            }
+ 
+        },
 
 
 
@@ -1461,6 +1517,15 @@ const data ={
 
 
 
+
+
+
+
+
+
+
+
+        
 
 
 
@@ -1472,7 +1537,7 @@ const data ={
 
 
         "Testsssssssssss":{
-            "attribute_id":2,
+            "attribute_id":000,
             "name":"Obstraction",
             "lateral_mark":{
                 "image_uri":"2.jpg"
