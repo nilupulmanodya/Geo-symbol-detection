@@ -284,23 +284,11 @@ const data ={
 
             }
         },
+
+
+
         "Cardinal buoy":{
             "attribute_id":3,
-            "name":"Cardinal buoy",
-            "lateral_mark":{
-                "image_uri":"./static/images/landMarks/3/Capture3.JPG"
-            }
-        },
-
-
-
-
-
-
-
-
-        "Cardinal buoy":{
-            "attribute_id":1,
             "name":"Cardinal buoy",
             "color":{
                 "Unknown":{
@@ -1122,6 +1110,60 @@ const data ={
             }
  
         },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        "rocks covers & uncovers":{
+            "attribute_id":9,
+            "name":"rocks covers & uncovers",
+            "color":{
+                "Unknown":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/5/Capture.JPG"
+                        },
+                        "partely submerged at high water":{
+                            "image_uri":"./static/images/landMarks/5/Capture.JPG"
+                        },
+                        "always dry":{
+                            "image_uri":"./static/images/landMarks/5/Capture.JPG"
+                        },
+                        "always under water/submerged":{
+                            "image_uri":"./static/images/landMarks/5/Capture.JPG"
+                        },
+                        "covers and uncovers":{
+                            "image_uri":"./static/images/landMarks/5/Capture1.JPG"
+                        },
+                        
+                        "awash":{
+                            "image_uri":"./static/images/landMarks/5/Capture.JPG"
+                        },
+                        
+                        "subject to inundation or flooding":{
+                            "image_uri":"./static/images/landMarks/5/Capture.JPG"
+                        },
+                        "floating":{
+                            "image_uri":"./static/images/landMarks/5/Capture.JPG"
+                        },
+                    }
+                },
+                
+            }
+ 
+        },
+
+
 
 
 
