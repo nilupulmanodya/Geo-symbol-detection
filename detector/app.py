@@ -57,20 +57,27 @@ RESULT_FOLDER = './static/images/results/0'
 #get_image_uri('Obstraction')
 
 def predict_image(im_name):
-    print('im_name',im_name)
     #os.remove(RESULT_FOLDER)
     shutil.rmtree(RESULT_FOLDER)
     img = Image.open(UPLOAD_FOLDER+'/'+im_name)
     results = model(img)
-    results.print()
-    print('results',results.xyxy[0])  # im predictions (tensor)
-    print('results pandas',results.pandas().xyxy[0])  # im predictions (pandas)
+    # results.print()
+    # print('results',results.xyxy[0])  # im predictions (tensor)
+    # print('results pandas',results.pandas().xyxy[0])  # im predictions (pandas)
     os.remove(os.path.join(app.config['UPLOAD_FOLDER'], im_name)) # deleting uploaded file if prediction success
     results.save(save_dir=RESULT_FOLDER)
     printRes = results.pandas().xyxy[0]
 
     LenRes = len(printRes)
-    return im_name, printRes, LenRes
+
+    results= {}
+
+    for i in range(0, LenRes):
+        if printRes['name'][i] in results.keys():
+            results[printRes['name'][i]] = results[printRes['name'][i]]+1
+        else:
+            results[printRes['name'][i]] = 1
+    return im_name, printRes, LenRes, results
     
 
 app = Flask(__name__)
@@ -99,9 +106,6 @@ def disease_prediction():
     title = 'Paper Chart Detector - Predictions'
 
     if request.method == 'POST':
-        print('post')
-        print(request.args)
-        print(request.files)
         if 'file' not in request.files:
             print('no file in requiests')
             #return redirect(request.url)
@@ -115,9 +119,9 @@ def disease_prediction():
         file1.save(path)
             
         try:
-            result_img, printRes, LenRes = predict_image(file1.filename)
+            result_img, printRes, LenRes, results = predict_image(file1.filename)
             # print(result_img)
-            return render_template('results.html', result_img=result_img, printRes= printRes, title=title, LenRes=LenRes)
+            return render_template('results.html', result_img=result_img, printRes= printRes, title=title, LenRes=LenRes,results=results)
         except Exception as e :
             print('tried not success', e)
             pass

@@ -7,95 +7,95 @@ const data ={
                 "Unknown":{
                     "lateral_mark":{
                         "unknown":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "port-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "starboard-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to starboard lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to port lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         }
                     }
                 },
                 "white":{
                     "lateral_mark":{
                         "unknown":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "port-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "starboard-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to starboard lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to port lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         }
                     }
                 },
                 "black":{
                     "lateral_mark":{
                         "unknown":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "port-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "starboard-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to starboard lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to port lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         }
                     }
                 },
                 "red":{
                     "lateral_mark":{
                         "unknown":{
-                            "image_uri":"Capture1.JPG"
+                            "image_uri":"./static/images/landMarks/1/Capture1.JPG"
                         },
                         "port-hand lateral mark":{
-                            "image_uri":"Capture1.JPG"
+                            "image_uri":"./static/images/landMarks/1/Capture1.JPG"
                         },
                         "starboard-hand lateral mark":{
-                            "image_uri":"Capture1.JPG"
+                            "image_uri":"./static/images/landMarks/1/Capture1.JPG"
                         },
                         "preferred channel to starboard lateral mark":{
-                            "image_uri":"Capture1.JPG"
+                            "image_uri":"./static/images/landMarks/1/Capture1.JPG"
                         },
                         "preferred channel to port lateral mark":{
-                            "image_uri":"Capture1.JPG"
+                            "image_uri":"./static/images/landMarks/1/Capture1.JPG"
                         }
                     }
                 },
                 "green":{
                     "lateral_mark":{
                         "unknown":{
-                            "image_uri":"Capture2.JPG"
+                            "image_uri":"./static/images/landMarks/1/Capture2.JPG"
                         },
                         "port-hand lateral mark":{
-                            "image_uri":"Capture2.JPG"
+                            "image_uri":"./static/images/landMarks/1/Capture2.JPG"
                         },
                         "starboard-hand lateral mark":{
-                            "image_uri":"Capture2.JPG"
+                            "image_uri":"./static/images/landMarks/1/Capture2.JPG"
                         },
                         "preferred channel to starboard lateral mark":{
-                            "image_uri":"Capture2.JPG"
+                            "image_uri":"./static/images/landMarks/1/Capture2.JPG"
                         },
                         "preferred channel to port lateral mark":{
-                            "image_uri":"Capture2.JPG"
+                            "image_uri":"./static/images/landMarks/1/Capture2.JPG"
                         }
                         
                     }
@@ -103,133 +103,133 @@ const data ={
                 "blue":{
                     "lateral_mark":{
                         "unknown":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "port-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "starboard-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to starboard lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to port lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         }
                     }
                 },
                 "yellow":{
                     "lateral_mark":{
                         "unknown":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "port-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "starboard-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to starboard lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to port lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         }
                     }
                 },
                 "grey":{
                     "lateral_mark":{
                         "unknown":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "port-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "starboard-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to starboard lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to port lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         }
                     }
                 },
                 "brown":{
                     "lateral_mark":{
                         "unknown":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "port-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "starboard-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to starboard lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to port lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         }
                     }
                 },
                 "amber":{
                     "lateral_mark":{
                         "unknown":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "port-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "starboard-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to starboard lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to port lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         }
                     }
                 },
                 "violet":{
                     "lateral_mark":{
                         "unknown":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "port-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "starboard-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to starboard lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to port lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         }
                     }
                 },
                 "orange":{
                     "lateral_mark":{
                         "unknown":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "port-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "starboard-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to starboard lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to port lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         }
                     }
                 },
@@ -237,19 +237,19 @@ const data ={
                 "magenta":{
                     "lateral_mark":{
                         "unknown":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "port-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "starboard-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to starboard lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to port lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         }
                     }
                 },
@@ -257,19 +257,19 @@ const data ={
                 "pink":{
                     "lateral_mark":{
                         "unknown":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "port-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "starboard-hand lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to starboard lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         },
                         "preferred channel to port lateral mark":{
-                            "image_uri":"Capture3"
+                            "image_uri":"./static/images/landMarks/1/Capture3.JPG"
                         }
                     }
                 }
@@ -280,18 +280,318 @@ const data ={
             "attribute_id":2,
             "name":"Obstraction",
             "lateral_mark":{
-                "image_uri":"2.jpg"
+                "image_uri":"./static/images/landMarks/2/Obstraction.jpg"
 
             }
         },
-        "Major/Minor light":{
-            "attribute_id":2,
-            "name":"Obstraction",
+        "Cardinal buoy":{
+            "attribute_id":3,
+            "name":"Cardinal buoy",
             "lateral_mark":{
-                "image_uri":"2.jpg"
-
+                "image_uri":"./static/images/landMarks/3/Capture3.JPG"
             }
         },
+
+
+
+
+
+
+
+
+        "Cardinal buoy":{
+            "attribute_id":1,
+            "name":"Cardinal buoy",
+            "color":{
+                "Unknown":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                },
+                "white":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                },
+                "black":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                },
+                "red":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture4.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture4.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture4.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture4.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture4.JPG"
+                        }
+                    }
+                },
+                "green":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture5.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture5.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture5.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture5.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture5.JPG"
+                        }
+                        
+                    }
+                },
+                "blue":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                },
+                "yellow":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                },
+                "grey":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                },
+                "brown":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                },
+                "amber":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                },
+                "violet":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                },
+                "orange":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                },
+
+                "magenta":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                },
+
+                "pink":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                }
+            }
+ 
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         "Testsssssssssss":{
             "attribute_id":2,
             "name":"Obstraction",
@@ -334,8 +634,7 @@ function print_color(color_id, attribute_name){
 
     console.log('printing color, attribute_name',attribute_name)
 
-
-    if (attribute == 'Testsssssssssss'){
+    if (attribute == 'Obstraction'){
         console.log(' no colors.. printing image')
 
         print_image()
@@ -388,10 +687,8 @@ function print_image(image_id, lateral_mark_index){
         image_uri = data.attributes[attribute].lateral_mark.image_uri
     }
     
-
-    console.log('image_uri',image_uri)
     // document.getElementById('target').innerHtml = '<img src="' +image_uri+'"/>';    
     var image = document.getElementById('image1');
-    image.src = "Capture1.JPG"
+    image.src = image_uri
 
 }

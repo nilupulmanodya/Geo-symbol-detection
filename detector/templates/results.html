@@ -24,30 +24,29 @@
 
     <table class="table table-striped">
       <tbody>
-
       {% if LenRes>0 %}
 
       <tr>
         <th scope="row">No</th>
         <th>Name</th>
-        <th>confidence</th>
-        <th>xmin</th>
-        <th>ymin</th>
-        <th>xmax</th>
-        <th>ymax</th>  
+        <th>Count</th>
+
+      </tr>
+      {% set count = namespace(value=0) %}
+      
+      {% for key, value in results.items() %}
+
+      {% set count.value = count.value + 1 %}
+     
+      <tr>
+        <th scope="row">{{ count.value }}</th>
+          <td> {{ key }} </td>
+          <td> {{ value }} </td>
       </tr>
 
-      {%for i in range(0, LenRes)%}
-        <tr>
-          <th scope="row">{{i+1}}</th>
-          <td>{{printRes['name'][i]}}</td>
-          <td>{{printRes['confidence'][i]}}</td>
-          <td>{{printRes['xmin'][i]}}</td>
-          <td>{{printRes['ymin'][i]}}</td>
-          <td>{{printRes['xmax'][i]}}</td>
-          <td>{{printRes['ymax'][i]}}</td>
-        </tr>
-        {%endfor%}
+     {%endfor%}
+
+
         <map name="UploadedImage">
         {%for i in range(0, LenRes)%}
           <area shape="rect" coords="{{printRes['xmin'][i]}}, {{printRes['ymin'][i]}}, {{printRes['xmax'][i]}}, {{printRes['ymax'][i]}}" onclick="Popup(`{{printRes['name'][i]}}`)" href="#" alt="something">    
