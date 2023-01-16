@@ -582,7 +582,63 @@ const data ={
 
 
 
+        "steep coast":{
+            "attribute_id":4,
+            "name":"steep coast",
+            "lateral_mark":{
+                "image_uri":"./static/images/landMarks/4/4.JPG"
 
+            }
+        },
+
+
+
+
+
+
+
+
+
+
+
+        "under water rock":{
+            "attribute_id":5,
+            "name":"under water rock",
+            "color":{
+                "Unknown":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/5/Capture.JPG"
+                        },
+                        "partely submerged at high water":{
+                            "image_uri":"./static/images/landMarks/5/Capture.JPG"
+                        },
+                        "always dry":{
+                            "image_uri":"./static/images/landMarks/5/Capture.JPG"
+                        },
+                        "always under water/submerged":{
+                            "image_uri":"./static/images/landMarks/5/Capture.JPG"
+                        },
+                        "covers and uncovers":{
+                            "image_uri":"./static/images/landMarks/5/Capture1.JPG"
+                        },
+                        
+                        "awash":{
+                            "image_uri":"./static/images/landMarks/5/Capture.JPG"
+                        },
+                        
+                        "subject to inundation or flooding":{
+                            "image_uri":"./static/images/landMarks/5/Capture.JPG"
+                        },
+                        "floating":{
+                            "image_uri":"./static/images/landMarks/5/Capture.JPG"
+                        },
+                    }
+                },
+                
+            }
+ 
+        },
 
 
 
@@ -634,7 +690,7 @@ function print_color(color_id, attribute_name){
 
     console.log('printing color, attribute_name',attribute_name)
 
-    if (attribute == 'Obstraction'){
+    if (attribute == 'Obstraction' | "steep coast"){
         console.log(' no colors.. printing image')
 
         print_image()
