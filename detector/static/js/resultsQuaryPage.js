@@ -648,6 +648,350 @@ const data ={
 
 
 
+
+        "visible wreck":{
+            "attribute_id":6,
+            "name":"visible wreck",
+            "color":{
+                "Unknown":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/6/a.JPG"
+                        },
+                        "undefined":{
+                            "image_uri":"./static/images/landMarks/6/a.JPG"
+                        },
+                        "non-dangerous wreck":{
+                            "image_uri":"./static/images/landMarks/6/a.JPG"
+                        },
+                        "dangerous wreck":{
+                            "image_uri":"./static/images/landMarks/6/a.JPG"
+                        },
+                        "distributed remains of wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture.JPG"
+                        },
+                        "wreck showing mast/masts":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "wreck showing any position of hull or superstructure":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                    }
+                },
+                "partly submerged at high water":{
+                    "lateral_mark":{
+                        "undefined":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "non-dangerous wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "dangerous wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "distributed remains of wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture.JPG"
+                        },
+                        "wreck showing mast/masts":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },                      
+                        "wreck showing any position of hull or superstructure":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                    }
+                },
+                "always dry":{
+                    "lateral_mark":{
+                        "undefined":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "non-dangerous wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "dangerous wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "distributed remains of wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture.JPG"
+                        },
+                        "wreck showing mast/masts":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },                      
+                        "wreck showing any position of hull or superstructure":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                    }
+                },
+                "always under water/submerge":{
+                    "lateral_mark":{
+                        "undefined":{
+                            "image_uri":"./static/images/landMarks/6/a.JPG"
+                        },
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/6/a.JPG"
+                        },
+                        "non-dangerous wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture2.JPG"
+                        },
+                        "dangerous wreck":{
+                            "image_uri":"./static/images/landMarks/6/a.JPG"
+                        },
+                        "distributed remains of wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture.JPG"
+                        },
+                        "wreck showing mast/masts":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },                      
+                        "wreck showing any position of hull or superstructure":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                    }
+                },
+                "covers and uncovers":{
+                    "lateral_mark":{
+                        "undefined":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "non-dangerous wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "dangerous wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "distributed remains of wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture.JPG"
+                        },
+                        "wreck showing mast/masts":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },                      
+                        "wreck showing any position of hull or superstructure":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        
+                    }
+                },
+                "awash":{
+                    "lateral_mark":{
+                        "undefined":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "non-dangerous wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "dangerous wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                        "distributed remains of wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture.JPG"
+                        },
+                        "wreck showing mast/masts":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },                      
+                        "wreck showing any position of hull or superstructure":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                    }
+                },
+                "subject to inundation or flooding":{
+                    "lateral_mark":{
+                        "undefined":{
+                            "image_uri":"./static/images/landMarks/6/a.JPG"
+                        },
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/6/a.JPG"
+                        },
+                        "non-dangerous wreck":{
+                            "image_uri":"./static/images/landMarks/6/a.JPG"
+                        },
+                        "dangerous wreck":{
+                            "image_uri":"./static/images/landMarks/6/a.JPG"
+                        },
+                        "distributed remains of wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture.JPG"
+                        },
+                        "wreck showing mast/masts":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },                      
+                        "wreck showing any position of hull or superstructure":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                    }
+                },
+                "floating":{
+                    "lateral_mark":{
+                        "undefined":{
+                            "image_uri":"./static/images/landMarks/6/Capture.JPG"
+                        },
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/6/a.JPG"
+                        },
+                        "non-dangerous wreck":{
+                            "image_uri":"./static/images/landMarks/6/a.JPG"
+                        },
+                        "dangerous wreck":{
+                            "image_uri":"./static/images/landMarks/6/a.JPG"
+                        },
+                        "distributed remains of wreck":{
+                            "image_uri":"./static/images/landMarks/6/Capture.JPG"
+                        },
+                        "wreck showing mast/masts":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },                      
+                        "wreck showing any position of hull or superstructure":{
+                            "image_uri":"./static/images/landMarks/6/Capture1.JPG"
+                        },
+                    }
+                },
+                "brown":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                },
+                "amber":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                },
+                "violet":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                },
+                "orange":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                },
+
+                "magenta":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                },
+
+                "pink":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "port-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "starboard-hand lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to starboard lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        },
+                        "preferred channel to port lateral mark":{
+                            "image_uri":"./static/images/landMarks/3/Capture3.JPG"
+                        }
+                    }
+                }
+            }
+ 
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         "Testsssssssssss":{
             "attribute_id":2,
             "name":"Obstraction",
