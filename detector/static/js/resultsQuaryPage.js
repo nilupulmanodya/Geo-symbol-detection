@@ -863,6 +863,45 @@ const data ={
 
 
 
+        "rock awash":{
+            "attribute_id":7,
+            "name":"rock awash",
+            "color":{
+                "Unknown":{
+                    "lateral_mark":{
+                        "unknown":{
+                            "image_uri":"./static/images/landMarks/7/Capture.JPG"
+                        },
+                        "partely submerged at high water":{
+                            "image_uri":"./static/images/landMarks/7/Capture.JPG"
+                        },
+                        "always dry":{
+                            "image_uri":"./static/images/landMarks/7/Capture.JPG"
+                        },
+                        "always under water/submerged":{
+                            "image_uri":"./static/images/landMarks/7/Capture.JPG"
+                        },
+                        "covers and uncovers":{
+                            "image_uri":"./static/images/landMarks/7/7.JPG"
+                        },
+                        
+                        "awash":{
+                            "image_uri":"./static/images/landMarks/7/Capture.JPG"
+                        },
+                        
+                        "subject to inundation or flooding":{
+                            "image_uri":"./static/images/landMarks/7/Capture.JPG"
+                        },
+                        "floating":{
+                            "image_uri":"./static/images/landMarks/7/Capture.JPG"
+                        },
+                    }
+                },
+                
+            }
+ 
+        },
+
 
 
 
